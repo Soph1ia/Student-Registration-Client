@@ -37,14 +37,15 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>com.github.Soph1ia.Student-Registration-System</groupId>
+            <groupId>com.github.Soph1ia</groupId>
             <artifactId>Student-Registration-System</artifactId>
-            <version>d0107073dd4714b8f06d416701519512a50adeea</version>
+            <version>v1.0</version>
         </dependency>
     </dependencies>
 
     <build>
         <plugins>
         </plugins>
+
     </build>
 </project>
