@@ -18,12 +18,16 @@
     <repositories>
         <repository>
             <id>jitpack.io</id>
-            <url>https://jitpack.io</url>
+            <url>https://www.jitpack.io</url>
         </repository>
     </repositories>
 
     <dependencies>
-
+        <dependency>
+            <groupId>com.github.Soph1ia</groupId>
+            <artifactId>SRS-a</artifactId>
+            <version>7.0</version>
+        </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
@@ -36,16 +40,16 @@
             <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
-        <dependency>
-            <groupId>com.github.Soph1ia</groupId>
-            <artifactId>Student-Registration-System</artifactId>
-            <version>v1.0</version>
-        </dependency>
+
     </dependencies>
 
     <build>
         <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>3.3.0</version>
+            </plugin>
         </plugins>
-
     </build>
 </project>
